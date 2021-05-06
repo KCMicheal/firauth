@@ -6,15 +6,13 @@ import LoginForm from './components/auth/LoginForm';
 function App() {
   return (
     <Router>
-    <Layout>
       <Switch>
         
           <Route path="/login">
             <LoginForm/>
           </Route>
-      
-      </Switch>
       </Layout>
+      </Switch>
     </Router>
     
   );

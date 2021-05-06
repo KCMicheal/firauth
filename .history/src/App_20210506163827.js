@@ -6,7 +6,7 @@ import LoginForm from './components/auth/LoginForm';
 function App() {
   return (
     <Router>
-    <Layout>
+    <La
       <Switch>
         
           <Route path="/login">
@@ -14,7 +14,6 @@ function App() {
           </Route>
       
       </Switch>
-      </Layout>
     </Router>
     
   );

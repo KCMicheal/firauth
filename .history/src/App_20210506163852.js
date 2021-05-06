@@ -12,9 +12,8 @@ function App() {
           <Route path="/login">
             <LoginForm/>
           </Route>
-      
+      </Layout
       </Switch>
-      </Layout>
     </Router>
     
   );

@@ -1,20 +1,18 @@
 import React from 'react';
 import Layout from './components/layout/Layout';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import LoginForm from './components/auth/LoginForm';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import LoginForm from './components/'
 
 function App() {
   return (
     <Router>
-    <Layout>
       <Switch>
-        
+        <Layout>
           <Route path="/login">
             <LoginForm/>
           </Route>
-      
-      </Switch>
       </Layout>
+      </Switch>
     </Router>
     
   );

@@ -14,7 +14,6 @@ function App() {
           </Route>
       
       </Switch>
-      </Layout>
     </Router>
     
   );
